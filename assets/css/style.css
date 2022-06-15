@@ -4455,6 +4455,11 @@ img {
   text-align: center;
 }
 
+.third-section {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
 .partners-section img {
   max-width: 100%;
   display: inline-block;
@@ -6693,4 +6698,155 @@ img {
   font-size: 20px;
   line-height: 22px;
   color: #000;
+}
+
+
+
+/*  */
+
+ul.infoGraphic {
+  font-size: var(--font-size);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+ul.infoGraphic li {
+  position: relative;
+  width: 100%;
+  max-width: 25em;
+  background: var(--bg1);
+  border-radius: 0.5em;
+  padding: 0.5em;
+  z-index: 1;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+ul.infoGraphic li .numberWrap {
+  position: absolute;
+}
+ul.infoGraphic li .number {
+  font-family: "maven pro", sans-serif;
+  font-size: 13em;
+  font-weight: 900;
+  width: 0.9em;
+  text-align: center;
+}
+ul.infoGraphic li .number.fontColor1 {
+  color: #012f5c;
+}
+ul.infoGraphic li .number.fontColor2 {
+  color: #2ecc71;
+}
+ul.infoGraphic li .number.fontColor3 {
+  color: #9b59b6;
+}
+ul.infoGraphic li .number.fontColor4 {
+  color: #f1c40f;
+}
+ul.infoGraphic li .number.fontColor5 {
+  color: #e74c3c;
+}
+ul.infoGraphic li .number.fontColor6 {
+  color: var(--orange);
+}
+ul.infoGraphic li .coverWrap {
+  transform: rotate(130deg);
+  position: absolute;
+  width: 18em;
+  height: 15em;
+  left: -3em;
+  top: -1em;
+}
+ul.infoGraphic li .coverWrap .numberCover {
+  position: absolute;
+  background: var(--bg1);
+  width: 18em;
+  height: 6em;
+  border-radius: 50% 50% 0 0;
+  border-bottom: 3px solid #f5f8f7;
+  transition: all 0.4s;
+}
+ul.infoGraphic li .coverWrap .numberCover::before {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  left: 4em;
+  right: 4em;
+  top: 5em;
+  box-shadow: 0 0 30px 17px #48668577;
+  border-radius: 100px/10px;
+  z-index: -1;
+}
+ul.infoGraphic li .coverWrap .numberCover::after {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  left: -10%;
+  width: 120%;
+  height: 150%;
+  background: radial-gradient(at bottom, #f5f5f5, whitesmoke, whitesmoke);
+  z-index: 1;
+}
+ul.infoGraphic li .content {
+  margin: 8em 3em 1em 7em;
+  position: relative;
+}
+ul.infoGraphic li .content h2 {
+  font-size: 1.7em;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+ul.infoGraphic li .content p {
+  line-height: 1.5em;
+}
+
+ul.infoGraphic li:hover .coverWrap .numberCover {
+  border-radius: 100%;
+}
+
+.content .icon {
+  position: absolute;
+  font-size: 2rem;
+  text-align: center;
+  top: -1.3em;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.content .icon:before {
+  color: #666;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+.iconCodepen:before {
+  content: "\f011";
+}
+
+.iconSocial:before {
+  content: "\f017";
+}
+
+.iconAirplane:before {
+  content: "\f080";
+}
+
+.iconMap:before {
+  content: "\f0c5";
+}
+
+.iconBulb:before {
+  content: "\f201";
+}
+
+.iconPeace:before {
+  content: "";
+}
+
+::marker {
+  display: none;
 }
