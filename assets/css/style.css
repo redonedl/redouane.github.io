@@ -2294,7 +2294,7 @@ img {
 }
 
 .site-header .navigation {
-  background-color: #012f5c;
+  background-color: #fff;
   margin-bottom: 0;
   border: 0;
   -webkit-border-radius: 0;
@@ -2302,6 +2302,7 @@ img {
   -o-border-radius: 0;
   -ms-border-radius: 0;
   border-radius: 0;
+  box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 17%);
 }
 
 .site-header .navigation > .container {
@@ -2744,10 +2745,10 @@ img {
 @media screen and (min-width: 992px) {
   .header-style-1 #navbar > ul > li > a, .header-style-2 #navbar > ul > li > a, .header-style-3 #navbar > ul > li > a, .header-style-4 #navbar > ul > li > a, .header-style-5 #navbar > ul > li > a, .header-style-6 #navbar > ul > li > a {
     font-family: "Poppins", sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-size: 1rem;
-    font-weight: 500;
-    color: #fff;
+    font-weight: 600;
+    color: #012c57;
     padding: 30px 12px;
   }
   .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar, .header-style-4 #navbar, .header-style-5 #navbar, .header-style-6 #navbar {
@@ -2801,12 +2802,12 @@ img {
 }
 
 .header-style-1 .search-social .social ul a, .header-style-2 .search-social .social ul a, .header-style-3 .search-social .social ul a, .header-style-4 .search-social .social ul a, .header-style-5 .search-social .social ul a, .header-style-6 .search-social .social ul a {
-  color: #fff;
+  color: #012c57;
 }
 
 .header-style-1 .search-social .open-btn, .header-style-2 .search-social .open-btn, .header-style-3 .search-social .open-btn, .header-style-4 .search-social .open-btn, .header-style-5 .search-social .open-btn, .header-style-6 .search-social .open-btn {
   background-color: transparent;
-  color: #fff;
+  color: #012c57;
   padding: 0;
   border: 0;
   margin-right: 40px;
@@ -6849,4 +6850,16 @@ ul.infoGraphic li:hover .coverWrap .numberCover {
 
 ::marker {
   display: none;
+}
+
+
+.grid .text-center h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+
+.grid .details p{
+  font-size: 20px;
+  line-height: 26px;
 }
