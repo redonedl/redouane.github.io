@@ -605,7 +605,7 @@ img {
 	#page title
 ******************************/
 .page-title {
-  background: url("../images/pg-title/img-1.jpg") center center/cover no-repeat local;
+  background: url("../images/aerial-view-business-team.jpg") center center/cover no-repeat local;
   width: 100%;
   height: 250px;
   text-align: center;
@@ -2325,7 +2325,7 @@ img {
 .site-header #navbar > ul li a:hover,
 .site-header #navbar > ul li a:focus {
   text-decoration: none;
-  color: #fdd415;
+  color: #78b732;
 }
 
 @media screen and (min-width: 992px) {
@@ -2752,7 +2752,7 @@ img {
     padding: 30px 12px;
   }
   .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar, .header-style-4 #navbar, .header-style-5 #navbar, .header-style-6 #navbar {
-    margin-right: 115px;
+    margin-right: 80px;
   }
 }
 
@@ -2761,7 +2761,7 @@ img {
     padding: 30px 16px;
   }
   .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar, .header-style-4 #navbar, .header-style-5 #navbar, .header-style-6 #navbar {
-    margin-right: 130px;
+    margin-right: 80px;
   }
 }
 
