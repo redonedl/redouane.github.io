@@ -1126,7 +1126,7 @@ img {
 }
 
 .services-grid-s2 .hover-grid {
-  background: url("../images/services-s2-grid-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/services/services-s2-grid-bg.jpg") center center/cover no-repeat local;
 }
 
 .services-grid-s2 .grid:hover .hover-grid {
@@ -1477,6 +1477,7 @@ img {
   -o-transition: all 0.3s;
   -ms-transition: all 0.3s;
   transition: all 0.3s;
+  height: 120px;
 }
 
 .team-grids .member-info h4 {
