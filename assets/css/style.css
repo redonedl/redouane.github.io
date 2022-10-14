@@ -150,7 +150,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: bold;
   color: #012f5c;
 }
@@ -457,7 +457,7 @@ img {
 }
 
 .theme-btn, .theme-btn-s2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #012f5c;
   font-size: 16px;
   font-size: 1.06667rem;
@@ -1114,7 +1114,7 @@ img {
 }
 
 .services-grid-s2 .read-more {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
   color: #012f5c;
   display: inline-block;
@@ -1312,7 +1312,7 @@ img {
 }
 
 .news-grids .date {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-weight: 600;
   color: #999;
   text-transform: uppercase;
@@ -1354,7 +1354,7 @@ img {
 
 .news-grids .entry-meta .read-more,
 .news-grids .entry-meta .comments {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 600;
@@ -1425,7 +1425,7 @@ img {
 }
 
 .progress-bar span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #fdd415;
   width: 50px;
   height: 50px;
@@ -1671,7 +1671,7 @@ img {
 
 .service-sidebar .link-widget li,
 .case-study-sidebar .link-widget li {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #f0f0f1;
   border-radius: 5px;
   position: relative;
@@ -1746,7 +1746,7 @@ img {
 
 .service-sidebar .contact-widget ul li,
 .case-study-sidebar .contact-widget ul li {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
   font-size: 1.06667rem;
   color: #666;
@@ -1795,7 +1795,7 @@ img {
 
 .service-sidebar .brochures-widget .btns a,
 .case-study-sidebar .brochures-widget .btns a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #f0f0f1;
   font-size: 16px;
   font-size: 1.06667rem;
@@ -1851,7 +1851,7 @@ img {
 .service-sidebar .case-link-widget li a,
 .case-study-sidebar .case-link-widget li a {
   background-color: #f2f2f2;
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 18px;
   font-size: 1.2rem;
   color: #012f5c;
@@ -2031,7 +2031,7 @@ img {
 }
 
 .pagination-wrapper .pg-pagination li a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #012f5c;
   display: block;
   width: 35px;
@@ -2745,15 +2745,15 @@ img {
 
 @media screen and (min-width: 992px) {
   .header-style-1 #navbar > ul > li > a, .header-style-2 #navbar > ul > li > a, .header-style-3 #navbar > ul > li > a, .header-style-4 #navbar > ul > li > a, .header-style-5 #navbar > ul > li > a, .header-style-6 #navbar > ul > li > a {
-    font-family: "Poppins", sans-serif;
+    font-family: "Cairo", sans-serif;
     font-size: 16px;
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #012c57;
     padding: 30px 12px;
   }
   .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar, .header-style-4 #navbar, .header-style-5 #navbar, .header-style-6 #navbar {
-    margin-right: 80px;
+    margin-right: 0px;
   }
 }
 
@@ -2762,7 +2762,7 @@ img {
     padding: 30px 16px;
   }
   .header-style-1 #navbar, .header-style-2 #navbar, .header-style-3 #navbar, .header-style-4 #navbar, .header-style-5 #navbar, .header-style-6 #navbar {
-    margin-right: 80px;
+    margin-right: 0px;
   }
 }
 
@@ -4302,7 +4302,7 @@ img {
 }
 
 .about-section .progress-bar span, .about-section-s3 .progress-bar span, .about-section-s4 .progress-bar span, .about-section-s5 .progress-bar span, .about-section-with-bg .progress-bar span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #fdd415;
   width: 50px;
   height: 50px;
@@ -4367,7 +4367,7 @@ img {
 }
 
 .projects-section .projects-list li a, .projects-section-s2 .projects-list li a, .project-section-s3-3grid .projects-list li a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
   font-size: 1.06667rem;
   color: #012f5c;
@@ -4704,7 +4704,7 @@ img {
 }
 
 .newsletter-section form div button {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #fdd415;
   width: 205px;
   height: 46px;
@@ -4835,7 +4835,7 @@ img {
 }
 
 .contact-section form button, .contact-pg-content form button {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #fdd415;
   width: 100%;
   height: 38px;
@@ -5316,7 +5316,7 @@ img {
 }
 
 .projects-section-s2 .more-work {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: bold;
@@ -5403,7 +5403,7 @@ img {
 }
 
 .team-section .all-member, .team-pg-section .all-member {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 18px;
   font-size: 1.2rem;
   font-weight: bold;
@@ -5709,7 +5709,7 @@ img {
 }
 
 .service-single-section .faq .panel-heading a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   background-color: #012f5c;
   font-size: 16px;
   font-size: 1.06667rem;
@@ -5831,7 +5831,7 @@ img {
 }
 
 .case-studies-section .grid a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Cairo", sans-serif;
   font-size: 16px;
   font-size: 1.06667rem;
   font-weight: 600;
