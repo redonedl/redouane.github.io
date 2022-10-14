@@ -939,9 +939,9 @@ img {
 }
 
 .services-s2-grids .icon {
-  width: 85px;
-  height: 85px;
-  line-height: 85px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
   text-align: center;
   border: 2px solid #fdd415;
   border-radius: 50%;
@@ -1047,9 +1047,9 @@ img {
 
 .services-grid-s2 .grid .icon {
   /*background-color: #012f5c;*/
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 130px;
+  height: 130px;
+  line-height: 130px;
   border-radius: 50%;
   margin: 0 auto 35px;
 }
@@ -3429,7 +3429,7 @@ img {
 --------------------------------------------------------------*/
 .hero {
   position: relative;
-  height: 100vh;
+  height: 60vh;
   overflow: hidden;
   /** slider controls **/
   /*** hero slider animation ***/
@@ -3448,7 +3448,7 @@ img {
 }
 
 .hero .slide {
-  height: 100vh;
+  height: 60vh;
   position: relative;
   background-repeat: no-repeat;
   position: relative;
@@ -5572,7 +5572,7 @@ img {
   width: calc(33.33% - 30px);
   float: left;
   margin: 0 15px 30px;
-  height: 320px;
+  height: 350px;
 }
 
 @media (max-width: 1199px) {
